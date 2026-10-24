@@ -1,0 +1,12 @@
+name: tomatoenv
+channels:
+    - defaults
+dependencies:
+    - pip=26.2.1=pyhc872135_0
+    - python=3.10.18=hc958d9f_0
+    - pip:
+          - mediapipe==0.10.14
+          - numpy==2.2.6
+          - opencv-python==5.0.0.93
+          - python-dotenv==1.2.4
+          - scipy==1.15.3
